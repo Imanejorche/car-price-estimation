@@ -11,16 +11,15 @@ This academic project focuses on estimating car prices using data preprocessing,
 - Removing unnecessary columns
 - Encoding categorical variables using one-hot encoding
 - Scaling selected numerical variables
-- Training machine learning models
+- Training machine learning regression models
 - Comparing model performance
-- Saving a trained model
 - Predicting the price of a new vehicle
 
 ## Dataset
 
 The notebook uses a dataset containing 2,499 vehicle records.
 
-The original dataset is not included in this repository because it contains vehicle identifiers and is not necessary for presenting the project.
+The original dataset is not included in this repository.
 
 ## Technologies
 
@@ -42,8 +41,19 @@ The trained model file is not included because of its large size.
 
 ## How to Run
 
-Install the dependencies:
+Install the required libraries:
 
-```bash
-pip install -r requirements.txt
+    pip install -r requirements.txt
+
+Open the notebook with Jupyter:
+
+    jupyter notebook Mini_projet.ipynb
+
+The dataset must be placed locally before running the notebook.
+
+## Project Context
+
+Academic project completed as part of the Master's program in Data Science and Information Systems Security.
+
+
 
